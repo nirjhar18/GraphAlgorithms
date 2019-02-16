@@ -69,7 +69,7 @@ namespace GraphAlgorithms
         * For example: If we start with 2 in above example, first it will print 2 then list in index 2 which will be 
         * 0. Then it will go to 0 and then print the list of 0. As 2 is already visited, it will only print 1.
         * Then it will check list of 3 which only has 3 which is already printed so BFS of 2 will be
-        * 2,0,3,1  O(V +E) V= vertices, E= Edges
+        * 2,0,1,3  O(V +E) V= vertices, E= Edges
         * 
         */
 
