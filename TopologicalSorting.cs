@@ -31,6 +31,8 @@ namespace GraphAlgorithms
          *                            >               /
          *                                    3
          *  First we check if there is a cycle as topological sort only works for acyclic graph.
+         *  Explore till there are no children and add the child it to Recursion Stack and then go back
+         *  to parent and explore other children
          *  Then we start with 0 and and call utility function. First it checks if vertice 0 has been visited. If not
          *  we add to visited list and then explore node 0 to find their children. In this case, 0 does not have any  
          *  children, so we add it to stack. Then same for 1 and then for 2, it has 3 as children so first we will 
